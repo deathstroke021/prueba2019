@@ -19,9 +19,9 @@
 
 # <center>Manual de Usuario 
 
-Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
+[comment]: # Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
   
-![Alt text](capturas/6f2.png?raw=true "")
+[comment]: # ![Alt text](capturas/6f2.png?raw=true "")
 
 ## Area
   * Menu 
