@@ -16,6 +16,13 @@
 
 **Grupo 10**
 
+## Integrantes
+| Carné | Nombre |
+| ---- | ---- |
+| 201504220 | José Andres Rodas Arrecis |
+| 201708850 | Marco Antonio Reyes Garcia |
+| 201800984 | Alex Fernando Méndez López |
+| 201503961 | Fernando Augusto Armira Ramírez|
 
 # <center>Manual de Usuario 
 
@@ -43,7 +50,7 @@ Permite presentar al usuario una vista estructurada de las bases de datos almace
 
 
 ## Editor de texto 
- Área de texto en la que el usuario puede escribir y ejecutar distintos querys para la administración de la base de datos. 
+ Área de texto en la que el usuario puede escribir y ejecutar distintos comandos para la administración de la base de datos. 
      
   * *Abrir* : Abre un script y lo despliega en el editor de texto el cual pude contener cualquier instruccion.
   * *Guardar* : Guarda lo que este en el area de texto. 
@@ -53,4 +60,6 @@ Permite presentar al usuario una vista estructurada de las bases de datos almace
 <!-- Screen del area de texto --> 
  
  ## Consola
-  Area especifica para desplegar al usuario los resultados de las operaciones realizadas.
+  Area especifica para desplegar al usuario los resultados de las operaciones realizadas por el usuario.
+
+<!-- Screen de la consola --> 
