@@ -19,9 +19,11 @@
 
 # <center>Manual de Usuario 
 
-#Tytus
+# TytusDB
 
-Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
+Tytus es un DBMS en el cual el usuario podrá administrar las distintas bases de datos que el usuario pueda crear.
+
+A continuación se describe más detalladamente cada funcionabilidad de Tytus.
 <!-- -->  
 
 ## Area
