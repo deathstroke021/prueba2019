@@ -14,50 +14,55 @@
 
 **Aux. Jonnathan Castillo**
 
-**Grupo 5**
+**Grupo 10**
 
+## Integrantes
+| Carné | Nombre |
+| ---- | ---- |
+| 201504220 | José Andres Rodas Arrecis |
+| 201708850 | Marco Antonio Reyes Garcia |
+| 201800984 | Alex Fernando Méndez López |
+| 201503961 | Fernando Augusto Armira Ramírez|
 
 # <center>Manual de Usuario 
 
-Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
+# TytusDB
+
+Tytus es un DBMS en el cual el usuario podrá administrar las distintas bases de datos que el usuario pueda crear, desde crear tablas, realizar insercciones de datos, realizar consultas.
+
+A continuación se describe más detalladamente cada funcionabilidad de Tytus.
+
+<!-- Screen del dbms completo -->  
+
+## Menu
   
-![Alt text](capturas/6f2.png?raw=true "")
-
-## Area
-  * Menu 
-  * Arbol DB
-  * Consulta
-  * Resultado
-
-## Menu  
-  Permite al usuario tener un acceso rapido a las funcionalidades del sistema, sin necesidad de ingresar la sintaxis definida para ese metodo. 
- ![Alt text](capturas/7f2.png?raw=true "")
-
 **Archivo**
 
-  * *Crear base de datos* : Permite al usuario crear una base de datos colocando el nombre en el campo correspodiente.
-   ![Alt text](capturas/3f2.png?raw=true "")
-   ![Alt text](capturas/5f2.png?raw=true "")
+  * *Crear base de datos* : Permite al usuario crear una base de datos de forma directa, sin introdicir el query correspondiente. 
 
-## Arbol DB
+<!-- Screen creando base de datos desde el menu --> 
 
-Permite presentar al usuario una vista estructurada en tiempo real, de las bases de datos almacenas en el sistema. Se representan las bases de datos con el nombre que asigno el usuario y una lista de tablas asociadas a cada base de datos.
-  ![Alt text](capturas/4f2.png?raw=true "")
+## Arbol TytusDB
 
-## Consulta  
- Área que tiene como objetivo almacenar las consultas escritas por el usuario asi como tambien crear nuevas pestañas para otras consultas. 
- ![Alt text](capturas/2f2.png?raw=true "")
-  
-  **Botones de ayuda:**
-   ![Alt text](capturas/1f2.png?raw=true "")
-   
-  * *Abrir* : Abre un archivo local con extension .sql , el cual tiene consultas a bases de datos.
-     ![Alt text](capturas/10f2.png?raw=true "")
-  * *Guardar* : Guarda las consultas escritas en el area de texto. 
-  ![Alt text](capturas/11f2.png?raw=true "")
+Permite presentar al usuario una vista estructurada de las bases de datos almacenas en el sistema con sus respectivas tablas, al presionar en el botón de refrescar se actualiza el árbol.
+
+<!-- Screen del arbol --> 
+
+
+## Editor de texto 
+ Área de texto en la que el usuario puede escribir y ejecutar distintos comandos para la administración de la base de datos. 
+     
+  * *Abrir* : Abre un script y lo despliega en el editor de texto el cual pude contener cualquier instruccion.
+  * *Guardar* : Guarda lo que este en el area de texto. 
   * *Agregar* : Permite crear nuevas pestañas para las consultas.
-  * *Run* : Realiza la consulta a base de datos.
+  * *Run* : Ejecuta las distintas instrucciones del editor de texto.
+
+<!-- Screen del area de texto --> 
  
- ## Resultado
-  Area especifica para desplegar al usuario los resultados de las consultas ingresadas.
-   ![Alt text](capturas/8f2.png?raw=true "")
+ ## Consola
+  Area especifica para desplegar al usuario los resultados de las operaciones realizadas por el usuario.
+
+<!-- Screen de la consola --> 
+
+Para más información acerca de la sintaxis SQL de TytusDB:
+[Documentacion SQL Syntax](https://github.com/tytusdb/tytus/tree/main/docs/sql_syntax)
