@@ -27,31 +27,30 @@ A continuación se describe más detalladamente cada funcionabilidad de Tytus.
 
 <!-- Screen del dbms completo -->  
 
-## Menu  
-  Permite al usuario crear una base de datos de forma directa, sin introdicir el query. 
-
-<!-- Screen creando base de datos desde el menu -->  
-
+## Menu
+  
 **Archivo**
 
-  * *Crear base de datos* : Permite al usuario crear una base de datos colocando el nombre en el campo correspodiente.
+  * *Crear base de datos* : Permite al usuario crear una base de datos de forma directa, sin introdicir el query correspondiente. 
+
+<!-- Screen creando base de datos desde el menu --> 
+
+## Arbol TytusDB
+
+Permite presentar al usuario una vista estructurada de las bases de datos almacenas en el sistema con sus respectivas tablas, al presionar en el botón de refrescar se actualiza el árbol.
+
+<!-- Screen del arbol --> 
 
 
-## Arbol DB
-
-Permite presentar al usuario una vista estructurada en tiempo real, de las bases de datos almacenas en el sistema. Se representan las bases de datos con el nombre que asigno el usuario y una lista de tablas asociadas a cada base de datos.
-
-
-## Consulta  
- Área que tiene como objetivo almacenar las consultas escritas por el usuario asi como tambien crear nuevas pestañas para otras consultas. 
-  
-  **Botones de ayuda:**
-
-   
-  * *Abrir* : Abre un archivo local con extension .sql , el cual tiene consultas a bases de datos.
-  * *Guardar* : Guarda las consultas escritas en el area de texto. 
+## Editor de texto 
+ Área de texto en la que el usuario puede escribir y ejecutar distintos querys para la administración de la base de datos. 
+     
+  * *Abrir* : Abre un script y lo despliega en el editor de texto el cual pude contener cualquier instruccion.
+  * *Guardar* : Guarda lo que este en el area de texto. 
   * *Agregar* : Permite crear nuevas pestañas para las consultas.
-  * *Run* : Realiza la consulta a base de datos.
+  * *Run* : Ejecuta las distintas instrucciones del editor de texto.
+
+<!-- Screen del area de texto --> 
  
- ## Resultado
-  Area especifica para desplegar al usuario los resultados de las consultas ingresadas.
+ ## Consola
+  Area especifica para desplegar al usuario los resultados de las operaciones realizadas.
