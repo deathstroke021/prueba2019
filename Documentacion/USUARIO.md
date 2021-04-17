@@ -21,20 +21,16 @@
 
 # TytusDB
 
-Tytus es un DBMS en el cual el usuario podrá administrar las distintas bases de datos que el usuario pueda crear.
+Tytus es un DBMS en el cual el usuario podrá administrar las distintas bases de datos que el usuario pueda crear, desde crear tablas, realizar insercciones de datos, realizar consultas.
 
 A continuación se describe más detalladamente cada funcionabilidad de Tytus.
-<!-- -->  
 
-## Area
-  * Menu 
-  * Arbol DB
-  * Consulta
-  * Resultado
+<!-- Screen del dbms completo -->  
 
 ## Menu  
-  Permite al usuario tener un acceso rapido a las funcionalidades del sistema, sin necesidad de ingresar la sintaxis definida para ese metodo. 
+  Permite al usuario crear una base de datos de forma directa, sin introdicir el query. 
 
+<!-- Screen creando base de datos desde el menu -->  
 
 **Archivo**
 
