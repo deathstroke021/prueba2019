@@ -19,8 +19,10 @@
 
 # <center>Manual de Usuario 
 
-# Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
-<!-- Markdown también soporta ligas con estilo de referencia -->  
+#Tytus
+
+Tytus es un software que administra el acceso a una base de datos llevando el control de sus respectivas tablas al momento de realizar operaciones sobre ellas.
+<!-- -->  
 
 ## Area
   * Menu 
